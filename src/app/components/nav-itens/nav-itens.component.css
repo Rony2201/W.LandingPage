@@ -1,0 +1,44 @@
+.side-cards {
+    height: 10.7rem;
+    width: 320px;
+    background-color: rgb(1, 1, 20);
+    margin: 3px 0 1px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.side-cards-title {
+    height: 11.2rem;
+    width: 320px;
+    background-color: rgb(1, 1, 20);
+    margin: 3px 0 1px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.title{
+    margin: 22px 0px;
+    color: rgb(243, 192, 24);
+    font-size: 35px;
+}
+.title, .sub-title, p {
+    line-height: 30px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+p {
+    color: grey;
+    font-size: 14px;
+}
+.sub-title {
+    font-size: 20px;
+    color: white;
+}

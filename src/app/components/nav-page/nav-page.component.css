@@ -1,34 +1,47 @@
 .big-side-main {
     display: flex;
     width: 800px;
-    padding: 15px 42px;
+    padding: 15px 25px;
     flex-direction: column;
 }
 .section-image {
     display: flex;
+    width: 800px;
 }
 .section-divs {
     margin-top: 30px;
     display: flex;
+    width: 780px;
     flex-direction: row;
     justify-content: space-around;
 }
 p {
+    margin-top: 15px;
     font-family: "Inter", sans-serif;
     color: rgb(102, 102, 102);
     font-size: 18px;
-    letter-spacing: 0.5px;
+    line-height: 25px;
+    letter-spacing: 1px;
 }
 .text-big {
     font-size: 30px;
+    font-family: "Inter", sans-serif;   
+}
+.text-big h2{
     font-family: "Inter", sans-serif;
-    font-weight: bolder;    
+    font-weight: 800;    
 }
 .read-more-button {
-    margin-top: 27px;
+    margin-top: 22px;
     border: none;
-    background-color: rgb(224, 72, 45);
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    background-color: rgb(240, 87, 60);
     width: 10rem;
-    height: 2.5rem;
-    letter-spacing: 1px;
+    height: 3rem;
+    letter-spacing: 4px;
+}
+.read-more-button:hover {
+    background-color: rgb(241, 117, 95) ;
+    cursor: pointer;
 }

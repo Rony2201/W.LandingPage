@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.img-footer {
+    margin: 5px 10px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.count, .title , p{
+    padding-left: 10px;
+}
+.count {
+    color: rgb(243, 155, 24);
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+.title {
+    color: rgb(19, 19, 19);
+    font-family:"Inter", sans-serif;
+}
+p {
+    color: grey;
+    font-size: 14px;
+    width: 12rem;
+    font-family: "Inter", sans-serif;
+}

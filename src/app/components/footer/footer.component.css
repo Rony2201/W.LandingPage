@@ -1,6 +1,7 @@
-.container-navs {
+.container {
+    margin-top: 55px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
