@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-itens-footer',
@@ -6,9 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./itens-footer.component.css']
 })
 export class ItensFooterComponent {
-  count:string = "01";
-  title:string = "Reviving Retro PCs";
-  paragraph:string = "What happens when old PCs are givin modern upgrades?";
+
+  @Input()
+  photoCover:string = "";
+  @Input()
+  count:string = "";
+  @Input()
+  title:string = "";
+  @Input()
+  paragraph:string = "";
+
+  constructor() {}
+
+  ngOnInit(): void {
+    
+  }
+
 
 
 }
